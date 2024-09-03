@@ -16,24 +16,28 @@ layout: page
     {% assign notes = semester_group.items | sort: 'order' %}
     {% for note in notes %}
       <li>
+        <h4>
         {% if note.class_code %}
           {% if note.post_url %}
-            <h4><a href="{{ note.post_url | relative_url }}">{{ note.title }} ({{ note.class_code }})</a></h4>
+            <a href="{{ note.post_url | relative_url }}">{{ note.title }} ({{ note.class_code }})</a>
           {% else %}
-            <h4>{{ note.title }} ({{ note.class_code }})</h4>
+            {{ note.title }} ({{ note.class_code }})
           {% endif %}
         {% else %}
           {% if note.post_url %}
-            <h4><a href="{{ note.post_url | relative_url }}">{{ note.title }}</a></h4>
+            <a href="{{ note.post_url | relative_url }}">{{ note.title }}</a>
           {% else %}
-            <h4>{{ note.title }}</h4>
+            {{ note.title }}
           {% endif %}
         {% endif %}
         {% if note.status == "unfinished" %}
-          <span class="badge bg-warning text-dark">Unfinished</span><br>
+          <span class="badge rounded-pill text-bg-warning">Unfinished</span><br>
         {% elsif note.status == "draft" %}
-          <span class="badge bg-secondary">Draft</span><br>
+          <span class="badge rounded-pill text-bg-secondary">Draft</span><br>
+        {% elsif note.status == "in-progress" %}
+          <span class="badge rounded-pill text-bg-info">In Progress</span><br>
         {% endif %}
+        </h4>
         <strong>Downloads</strong>
         <ul class="downloads">
           {% for download in note.downloads %}
