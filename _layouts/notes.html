@@ -1,0 +1,63 @@
+---
+layout: page
+---
+
+{% include lang.html %}
+
+{% assign df_strftime_m = site.data.locales[lang].df.archives.strftime | default: '/ %m' %}
+{% assign df_dayjs_m = site.data.locales[lang].df.archives.dayjs | default: '/ MM' %}
+
+<div id="notes" class="p1-x1-3">
+  {% assign sorted_notes = site.notes | sort: 'semester_order' | reverse | group_by: 'semester_name' %}
+  {% for semester_group in sorted_notes %}
+    <h2>{{ semester_group.name }}</h2>
+    <ul>
+
+    {% assign notes = semester_group.items | sort: 'order' %}
+    {% for note in notes %}
+      <li>
+        {% if note.class_code %}
+          {% if note.post_url %}
+            <h4><a href="{{ note.post_url | relative_url }}">{{ note.title }} ({{ note.class_code }})</a></h4>
+          {% else %}
+            <h4>{{ note.title }} ({{ note.class_code }})</h4>
+          {% endif %}
+        {% else %}
+          {% if note.post_url %}
+            <h4><a href="{{ note.post_url | relative_url }}">{{ note.title }}</a></h4>
+          {% else %}
+            <h4>{{ note.title }}</h4>
+          {% endif %}
+        {% endif %}
+        {% if note.status == "unfinished" %}
+          <span class="badge bg-warning text-dark">Unfinished</span><br>
+        {% elsif note.status == "draft" %}
+          <span class="badge bg-secondary">Draft</span><br>
+        {% endif %}
+        <strong>Downloads</strong>
+        <ul class="downloads">
+          {% for download in note.downloads %}
+            <li><a href="{{ download.url }}">{{ download.label }}</a></li>
+          {% endfor %}
+        </ul>
+        <strong>Texts</strong>
+        <ul class="texts">
+          {% for text in note.texts %}
+            <li>
+              {% if text.author %}
+                <i>{{ text.title }}</i>, by {{ text.author }}
+              {% else %}
+                <i>{{ text.title }}</i>
+              {% endif %}
+              {% if text.pdf_url %}
+                - <a href="{{ text.pdf_url }}">PDF</a>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </li>
+    {% endfor %}
+
+    </ul>
+  {% endfor %}
+</div>
