@@ -1,0 +1,67 @@
+---
+layout: page
+---
+
+{% include lang.html %}
+
+{% assign df_strftime_m = site.data.locales[lang].df.archives.strftime | default: '/ %m' %}
+{% assign df_dayjs_m = site.data.locales[lang].df.archives.dayjs | default: '/ MM' %}
+
+<div id="notes" class="p1-x1-3">
+  {% assign sorted_notes = site.notes | sort: 'semester_order' | reverse | group_by: 'semester_name' %}
+  {% for semester_group in sorted_notes %}
+    <h2>{{ semester_group.name }}</h2>
+    <ul>
+
+    {% assign notes = semester_group.items | sort: 'order' %}
+    {% for note in notes %}
+      <li>
+        <h4>
+        {% if note.class_code %}
+          {% if note.post_url %}
+            <a href="{{ note.post_url | relative_url }}">{{ note.title }} ({{ note.class_code }})</a>
+          {% else %}
+            {{ note.title }} ({{ note.class_code }})
+          {% endif %}
+        {% else %}
+          {% if note.post_url %}
+            <a href="{{ note.post_url | relative_url }}">{{ note.title }}</a>
+          {% else %}
+            {{ note.title }}
+          {% endif %}
+        {% endif %}
+        {% if note.status == "unfinished" %}
+          <span class="badge rounded-pill badge-warning">Unfinished</span><br>
+        {% elsif note.status == "draft" %}
+          <span class="badge rounded-pill text-bg-secondary">Draft</span><br>
+        {% elsif note.status == "in-progress" %}
+          <span class="badge rounded-pill text-bg-info">In Progress</span><br>
+        {% endif %}
+        </h4>
+        <strong>Downloads</strong>
+        <ul class="downloads">
+          {% for download in note.downloads %}
+            <li><a href="{{ download.url }}">{{ download.label }}</a></li>
+          {% endfor %}
+        </ul>
+        <strong>Texts</strong>
+        <ul class="texts">
+          {% for text in note.texts %}
+            <li>
+              {% if text.author %}
+                <i>{{ text.title }}</i>, by {{ text.author }}
+              {% else %}
+                <i>{{ text.title }}</i>
+              {% endif %}
+              {% if text.pdf_url %}
+                - <a href="{{ text.pdf_url }}">PDF</a>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </li>
+    {% endfor %}
+
+    </ul>
+  {% endfor %}
+</div>
