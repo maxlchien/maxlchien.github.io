@@ -20,4 +20,8 @@ jobs:
           python handle_imports.py
       - name: Commit changes
         run: |
-          git push .
+          git config --global user.email "email"
+          git config --global user.name "Actions Bot"
+          git add .
+          git commit -m "Handle imported files from Math-Notes"
+          git push
