@@ -1,0 +1,23 @@
+name: Handle imported files
+
+on:
+  repository_dispatch:
+    types: [trigger-workflow]
+
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+      - name: Execute Python
+        run: |
+          python handle_imports.py
+      - name: Commit changes
+        run: |
+          git push .
