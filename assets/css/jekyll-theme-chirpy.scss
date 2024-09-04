@@ -8,3 +8,27 @@
 ';
 
 /* append your custom style below */
+.yellow-badge {
+  background-color: yellow;
+  color: black;
+  font-size: 0.8em;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-left: 5px;
+}
+.green-badge {
+  background-color: green;
+  color: white;
+  font-size: 0.8em;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-left: 5px;
+}
+.grey-badge {
+  background-color: grey;
+  color: white;
+  font-size: 0.8em;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-left: 5px;
+}

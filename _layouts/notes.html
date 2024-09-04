@@ -31,11 +31,11 @@ layout: page
           {% endif %}
         {% endif %}
         {% if note.status == "unfinished" %}
-          <span class="badge rounded-pill text-bg-warning">Unfinished</span>
+          <span class="yellow-badge">Unfinished</span>
         {% elsif note.status == "draft" %}
-          <span class="badge rounded-pill text-bg-secondary">Draft</span>
+          <span class="grey-badge">Draft</span>
         {% elsif note.status == "in-progress" %}
-          <span class="badge rounded-pill text-bg-info">In Progress</span>
+          <span class="green-badge">In Progress</span>
         {% endif %}
         </h4>
         <strong>Downloads</strong>
