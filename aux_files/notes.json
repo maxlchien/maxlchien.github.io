@@ -1,6 +1,7 @@
 [
     {
         "title": "Multivariable Calculus Reference Sheet",
+        "md_path": "multi-ref.md",
         "downloads": [
             {
                 "label": "Multivariable Calculus Reference Sheet",
@@ -19,6 +20,7 @@
     },
     {
         "title": "MAT 215 Notes",
+        "md_path": "mat-215.md",
         "class_code": "MAT 215",
         "post_url": "/posts/mat-215-notes/",
         "downloads": [
@@ -52,6 +54,7 @@
     },
     {
         "title": "Abel's Theorem DRP",
+        "md_path": "abels-thm.md",
         "status": "unfinished",
         "downloads": [
             {
@@ -72,6 +75,7 @@
     },
     {
         "title": "MAT 217 Notes",
+        "md_path": "mat-217.md",
         "class_code": "MAT 217",
         "downloads": [
             {
@@ -100,6 +104,7 @@
     },
     {
         "title": "ORF 309 Notes",
+        "md_path": "orf-309.md",
         "class_code": "ORF 309",
         "downloads": [
             {
@@ -132,6 +137,7 @@
     },
     {
         "title": "Spivak Notes",
+        "md_path": "spivak.md",
         "status": "unfinished",
         "downloads": [
             {
@@ -160,6 +166,7 @@
     },
     {
         "title": "MAT 335 Notes",
+        "md_path": "mat-335.md",
         "class_code": "MAT 335",
         "status": "in-progress",
         "downloads": [
@@ -193,6 +200,7 @@
     },
     {
         "title": "MAT 345 Notes",
+        "md_path": "mat-345.md",
         "class_code": "MAT 345",
         "status": "in-progress",
         "downloads": [
