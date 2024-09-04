@@ -19,7 +19,7 @@ with open("aux_files/notes.json", "r") as f:
         else:
             within_sem += 1
         note_path = f"_notes/{note["md_path"]}"
-        with open(note_path, "w") as f:
+        with open(note_path, "w+") as f:
             f.write("---\n")
             f.write(f"title: {note["title"]}\n")
             if "class_code" in note:
