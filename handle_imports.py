@@ -48,3 +48,4 @@ with open("aux_files/notes.json", "r") as f:
                     if "pdf_url" in text:
                         f.write(f"    pdf_url: {text["pdf_url"]}\n")
             f.write("---")
+print("ok")
