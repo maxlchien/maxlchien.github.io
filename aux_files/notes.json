@@ -168,7 +168,6 @@
         "title": "Complex Analysis",
         "md_path": "mat-335.md",
         "class_code": "MAT 335",
-        "status": "in-progress",
         "downloads": [
             {
                 "label": "MAT 335 Notes",
@@ -202,7 +201,6 @@
         "title": "Algebra I",
         "md_path": "mat-345.md",
         "class_code": "MAT 345",
-        "status": "in-progress",
         "downloads": [
             {
                 "label": "MAT 345 Notes",
@@ -235,6 +233,7 @@
     {
         "title": "On Zeta(-1)",
         "md_path": "zeta-1.md",
+        "status": "in-progress",
         "downloads": [
             {
                 "label": "On Zeta(-1)",
