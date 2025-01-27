@@ -247,5 +247,45 @@
         "semester_name": "Fall 2024",
         "semester_order": 6,
         "order": 3
+    },
+    {
+        "title": "Measure Theory",
+        "md_path": "mat-425.md",
+        "class_code": "MAT 425",
+        "downloads": [
+            {
+                "label": "MAT 425 Notes",
+                "url": "/downloads/MAT%20425%20Notes.pdf"
+            }
+        ],
+        "texts": [
+            {
+                "title": "Real Analysis",
+                "author": "Elias Stein and Rami Shakarchi"
+            },
+            {
+                "title": "Real and Complex Analysis",
+                "author": "Walter Rudin"
+            },
+            {
+                "title": "Real Analysis (2nd Edition)",
+                "author": "Halsey Royden"
+            },
+            {
+                "title": "The Elements of Integration and Lebesgue Measure",
+                "author": "Robert Bartle"
+            },
+            {
+                "title": "Measure Theory",
+                "author": "Paul Halmos"
+            },
+            {
+                "title": "Real Analysis: Modern Techniques and Their Applications",
+                "author": "Gerald Folland"
+            }
+        ],
+        "semester_name": "Spring 2025",
+        "semester_order": 7,
+        "order": 1
     }
 ]
