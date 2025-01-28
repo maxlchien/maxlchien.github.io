@@ -237,7 +237,6 @@
     {
         "title": "Methods of Summation and Zeta(-1)",
         "md_path": "zeta-1.md",
-        "status": "in-progress",
         "downloads": [
             {
                 "label": "Methods of Summation and Zeta(-1)",
@@ -252,6 +251,7 @@
         "title": "Measure Theory",
         "md_path": "mat-425.md",
         "class_code": "MAT 425",
+        "status": "in-progress",
         "downloads": [
             {
                 "label": "MAT 425 Notes",
