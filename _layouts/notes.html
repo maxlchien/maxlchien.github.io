@@ -44,21 +44,23 @@ layout: page
             <li><a href="{{ download.url }}">{{ download.label }}</a></li>
           {% endfor %}
         </ul>
-        <strong>Texts</strong>
-        <ul class="texts">
-          {% for text in note.texts %}
-            <li>
-              {% if text.author %}
-                <i>{{ text.title }}</i>, by {{ text.author }}
-              {% else %}
-                <i>{{ text.title }}</i>
-              {% endif %}
-              {% if text.pdf_url %}
-                - <a href="{{ text.pdf_url }}">PDF</a>
-              {% endif %}
-            </li>
-          {% endfor %}
-        </ul>
+        {% if note.texts %}
+          <strong>Texts</strong>
+          <ul class="texts">
+            {% for text in note.texts %}
+              <li>
+                {% if text.author %}
+                  <i>{{ text.title }}</i>, by {{ text.author }}
+                {% else %}
+                  <i>{{ text.title }}</i>
+                {% endif %}
+                {% if text.pdf_url %}
+                  - <a href="{{ text.pdf_url }}">PDF</a>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
       </li>
     {% endfor %}
 
