@@ -41,8 +41,10 @@ with open("aux_files/notes.json", "r") as f:
             if "texts" in note:
                 f.write("texts:\n")
                 for text in note["texts"]:
-                    if "title" in text:
+                    if "title" in text and not ":" in text["title"]:
                         f.write(f"  - title: {text["title"]}\n")
+                    elif "title" in text:
+                        f.write(f"  - title: \"{text["title"]}\"\n")
                     if "author" in text:
                         f.write(f"    author: {text["author"]}\n")
                     if "pdf_url" in text:
