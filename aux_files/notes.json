@@ -287,5 +287,33 @@
         "semester_name": "Spring 2025",
         "semester_order": 7,
         "order": 1
+    },
+    {
+        "title": "Mathematics in Engineering II",
+        "md_path": "mae-306.md",
+        "class_code": "MAE 306",
+        "downloads": [
+            {
+                "label": "MAE 306 Notes",
+                "url": "/downloads/MAE%20306%20Notes.pdf"
+            }
+        ],
+        "semester_name": "Spring 2025",
+        "semester_order": 7,
+        "order": 2
+    },
+    {
+        "title": "Computational Geophysics",
+        "md_path": "geo-441.md",
+        "class_code": "GEO 441",
+        "downloads": [
+            {
+                "label": "GEO 441 Notes",
+                "url": "/downloads/GEO%20441%20Notes.pdf"
+            }
+        ],
+        "semester_name": "Spring 2025",
+        "semester_order": 7,
+        "order": 3
     }
 ]
