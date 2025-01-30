@@ -292,6 +292,7 @@
         "title": "Mathematics in Engineering II",
         "md_path": "mae-306.md",
         "class_code": "MAE 306",
+        "status": "in-progress",
         "downloads": [
             {
                 "label": "MAE 306 Notes",
@@ -306,6 +307,7 @@
         "title": "Computational Geophysics",
         "md_path": "geo-441.md",
         "class_code": "GEO 441",
+        "status": "in-progress",
         "downloads": [
             {
                 "label": "GEO 441 Notes",
