@@ -22,7 +22,7 @@
         "title": "Introduction to Single Variable Analysis",
         "md_path": "mat-215.md",
         "class_code": "MAT 215",
-        "post_url": "/posts/mat-215/",
+        "post_url": "/posts/mat-215-notes/",
         "downloads": [
             {
                 "label": "MAT 215 Notes",
@@ -108,6 +108,7 @@
         "title": "Probability and Stochastic Systems",
         "md_path": "orf-309.md",
         "class_code": "ORF 309",
+        "post_url": "/posts/orf-309/",
         "downloads": [
             {
                 "label": "ORF 309 Notes",
@@ -304,5 +305,14 @@
         "semester_name": "Spring 2025",
         "semester_order": 7,
         "order": 2
+    },
+    {
+        "title": "Coupled Earth System Dynamics",
+        "md_path": "aos-562.md",
+        "class_code": "AOS 562",
+        "downloads": [],
+        "semester_name": "Spring 2025",
+        "semester_order": 7,
+        "order": 3
     }
 ]
