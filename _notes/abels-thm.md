@@ -4,8 +4,8 @@ semester_name: Fall 2023
 semester_order: 2
 order: 2
 status: unfinished
+post_url: /posts/abels-thm/
 date: 2023-12-20 00:00:01 -0400
-"post_url": "/posts/abels-thm/"
 downloads:
   - label: Abel's Theorem DRP
     url: /downloads/Abel's%20Theorem%20DRP.pdf
