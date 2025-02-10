@@ -22,7 +22,7 @@
         "title": "Introduction to Single Variable Analysis",
         "md_path": "mat-215.md",
         "class_code": "MAT 215",
-        "post_url": "/posts/mat-215-notes/",
+        "post_url": "/posts/mat-215/",
         "downloads": [
             {
                 "label": "MAT 215 Notes",
@@ -56,6 +56,7 @@
         "title": "Abel's Theorem DRP",
         "md_path": "abels-thm.md",
         "status": "unfinished",
+        "post_url": "/posts/abels-thm/",
         "downloads": [
             {
                 "label": "Abel's Theorem DRP",
@@ -77,6 +78,7 @@
         "title": "Honors Linear Algebra",
         "md_path": "mat-217.md",
         "class_code": "MAT 217",
+        "post_url": "/posts/mat-217/",
         "downloads": [
             {
                 "label": "MAT 217 Notes",
