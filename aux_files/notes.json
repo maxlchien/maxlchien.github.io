@@ -254,7 +254,6 @@
         "title": "Measure Theory",
         "md_path": "mat-425.md",
         "class_code": "MAT 425",
-        "status": "in-progress",
         "downloads": [
             {
                 "label": "MAT 425 Notes",
@@ -295,13 +294,7 @@
         "title": "Computational Geophysics",
         "md_path": "geo-441.md",
         "class_code": "GEO 441",
-        "status": "in-progress",
-        "downloads": [
-            {
-                "label": "GEO 441 Notes",
-                "url": "/downloads/GEO%20441%20Notes.pdf"
-            }
-        ],
+        "downloads": [],
         "semester_name": "Spring 2025",
         "semester_order": 7,
         "order": 2
