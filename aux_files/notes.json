@@ -307,5 +307,55 @@
         "semester_name": "Spring 2025",
         "semester_order": 7,
         "order": 3
+    },
+    {
+        "title": "Tromp Research",
+        "md_path": "tromp-summer-2025.md",
+        "downloads": [],
+        "semester_name": "Summer 2025",
+        "semester_order": 8,
+        "order": 1
+    },
+    {
+        "title": "Fitting Smooth Functions to Data",
+        "md_path": "mat-429.md",
+        "class_code": "MAT 429",
+        "downloads": [
+            {
+                "label": "MAT 429 Notes",
+                "url": "/downloads/MAT%20429%20Notes.pdf"
+            }
+        ],
+        "semester_name": "Fall 2025",
+        "semester_order": 9,
+        "order": 1
+    },
+    {
+        "title": "Analytic Number Theory",
+        "md_path": "mat-415.md",
+        "class_code": "MAT 415",
+        "downloads": [
+            {
+                "label": "MAT 415 Notes",
+                "url": "/downloads/MAT%20415%20Notes.pdf"
+            }
+        ],
+        "semester_name": "Fall 2025",
+        "semester_order": 9,
+        "order": 2
+    },
+    {
+        "title": "Optimal Control",
+        "md_path": "mae-546.md",
+        "class_code": "MAE 546",
+        "downloads": [
+            {
+                "label": "MAE 546 Notes",
+                "url": "/downloads/MAE%20546%20Notes.pdf"
+            }
+        ],
+        "semester_name": "Fall 2025",
+        "semester_order": 9,
+        "order": 3
     }
 ]
