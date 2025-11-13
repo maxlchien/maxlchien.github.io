@@ -357,5 +357,13 @@
         "semester_name": "Fall 2025",
         "semester_order": 9,
         "order": 3
+    },
+    {
+        "title": "Junior Sem",
+        "md_path": "jsem.md",
+        "downloads": [],
+        "semester_name": "Fall 2025",
+        "semester_order": 9,
+        "order": 4
     }
 ]
