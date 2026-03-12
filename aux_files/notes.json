@@ -365,5 +365,58 @@
         "semester_name": "Fall 2025",
         "semester_order": 9,
         "order": 4
+    },
+    {
+        "title": "Algebraic Geometry",
+        "md_path": "ag.md",
+        "downloads": [
+            {
+                "label": "Algebraic Geometry Notes",
+                "url": "/downloads/Algebraic%20Geometry%20Notes.pdf"
+            }
+        ],
+        "semester_name": "Spring 2026",
+        "semester_order": 10,
+        "order": 1
+    },
+    {
+        "title": "Brownian Motion & Stochastic Calculus",
+        "md_path": "brownian-motion.md",
+        "downloads": [],
+        "semester_name": "Spring 2026",
+        "semester_order": 10,
+        "order": 2
+    },
+    {
+        "title": "Inverse Theory",
+        "md_path": "inverse-theory.md",
+        "downloads": [],
+        "semester_name": "Spring 2026",
+        "semester_order": 10,
+        "order": 3
+    },
+    {
+        "title": "Junior Paper",
+        "md_path": "tromp-jp.md",
+        "downloads": [],
+        "semester_name": "Spring 2026",
+        "semester_order": 10,
+        "order": 4
+    },
+    {
+        "title": "Fourier Analysis and Hilbert Spaces",
+        "md_path": "fourier-hilbert.md",
+        "downloads": [],
+        "semester_name": "Spring 2026",
+        "semester_order": 10,
+        "order": 5
+    },
+    {
+        "title": "Mathematical Theory of Fluid Dynamics",
+        "md_path": "fluid-dynamics.md",
+        "downloads": [],
+        "semester_name": "Spring 2026",
+        "semester_order": 10,
+        "order": 6
     }
 ]
