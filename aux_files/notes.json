@@ -388,20 +388,12 @@
         "order": 2
     },
     {
-        "title": "Inverse Theory",
-        "md_path": "inverse-theory.md",
-        "downloads": [],
-        "semester_name": "Spring 2026",
-        "semester_order": 10,
-        "order": 3
-    },
-    {
         "title": "Junior Paper",
         "md_path": "tromp-jp.md",
         "downloads": [],
         "semester_name": "Spring 2026",
         "semester_order": 10,
-        "order": 4
+        "order": 3
     },
     {
         "title": "Fourier Analysis and Hilbert Spaces",
@@ -409,7 +401,7 @@
         "downloads": [],
         "semester_name": "Spring 2026",
         "semester_order": 10,
-        "order": 5
+        "order": 4
     },
     {
         "title": "Mathematical Theory of Fluid Dynamics",
@@ -417,6 +409,6 @@
         "downloads": [],
         "semester_name": "Spring 2026",
         "semester_order": 10,
-        "order": 6
+        "order": 5
     }
 ]
