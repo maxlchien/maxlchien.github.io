@@ -383,6 +383,36 @@
         "title": "Brownian Motion & Stochastic Calculus",
         "md_path": "brownian-motion.md",
         "downloads": [],
+        "texts": [
+            {
+                "title": "Continuous Martingales and Brownian Motion",
+                "author": "Daniel Revuz and Marc Yor"
+            },
+            {
+                "title": "Brownian Motion, Martingales, and Stochastic Calculus",
+                "author": "Jean-Fran\u00e7ois Le Gall"
+            },
+            {
+                "title": "Brownian Motion & Stochastic Calculus",
+                "author": "Ioannis Karatzas and Steven E. Shreve"
+            },
+            {
+                "title": "Stochastic Processes",
+                "author": "Richard F. Bass"
+            },
+            {
+                "title": "Probability: Theory and Examples",
+                "author": "Richard Durrett"
+            },
+            {
+                "title": "Stochastic Processes",
+                "author": "Bernt \u00d8ksendal"
+            },
+            {
+                "title": "Stochastic Calculus Lectures",
+                "author": "Fabrice Baudoin (via website)"
+            }
+        ],
         "semester_name": "Spring 2026",
         "semester_order": 10,
         "order": 2
